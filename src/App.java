@@ -1,37 +1,35 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //System.out.println("Hello, World!");
 
-        int nums[]= {5,2,7,4,4,1};
+        BinarySearchTree tree = new BinarySearchTree();
+
+        tree.insert(70);
+        tree.insert(45);
+        tree.insert(87);
+        tree.insert(32);
+        tree.insert(56);
+        tree.insert(77);
+        tree.insert(92);
+        tree.insert(21);
+        tree.insert(40);
+        tree.insert(46);
+        tree.insert(68);
+        tree.insert(73);
+        tree.insert(80);
+        tree.insert(89);
+        tree.insert(99);
+        tree.insert(13);
+        tree.insert(27);
+        tree.insert(79);
+        tree.insert(82);
+
+        //ArrayList<Integer> preorderArray = tree.preorder();
+
+        
         
 
-        question1 mQuestion1 = new question1();
-        String text= mQuestion1.sample();
-        System.out.println(text);
-
-        
-
-        question2 mQuestion2 = new question2();
-        mQuestion2.thirdElement(nums);
-        int answer= mQuestion2.thirdElement(nums);
-        System.out.println(answer);
-
-
-        question3 mQuestion3 = new question3();
-        int n = nums.length;
-        
-        int x=13;
-        mQuestion3.addElement(n, nums, x);
-
-       
-        nums = mQuestion3.addElement(n, nums, x);
-        
-        System.out.println(Arrays.toString(nums));
-        
     }
-
-
-
 }
