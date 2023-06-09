@@ -1,18 +1,26 @@
-## Getting Started
+--------------------------------------
+Data Structures Homework Assignment #3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+--------------------------------------
 
-## Folder Structure
+CE224 Data Structures
 
-The workspace contains two folders by default, where:
+--------------------------------------
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The problem's answer is written in the spesific .java file. (QuestionOne.java)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+You can find these files in the src directory.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Every problem file has called in the main function, in the App.java file.
 
-## Dependency Management
+You can comment the lines for spesific results for every problem in App.java file whenever you want to see the results.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+--------------------------------------
+
+Student's Name: Tahir Furkan SARIDIKEN
+
+Student Number: 200316004
+
+Instructor's Name: Ali Öztürk & Ayşegül Yurtdakal
+
+--------------------------------------
